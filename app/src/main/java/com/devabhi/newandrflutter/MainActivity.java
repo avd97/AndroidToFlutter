@@ -19,14 +19,3 @@ public class MainActivity extends AppCompatActivity {
         startActivity(FlutterActivity.createDefaultIntent(this));
     }
 }
-
-/*
-setBinding(new Binding([gradle: this]))                                // new
-evaluate(new File(                                                     // new
-  settingsDir.parentFile,                                              // new
-  'demomodule/.android/include_flutter.groovy'                         // new
-))
-
-include ':demomodule'
-project(':demomodule').projectDir = new File('../demomodule')
-* */
